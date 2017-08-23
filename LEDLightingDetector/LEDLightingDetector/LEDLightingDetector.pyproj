@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1c268fb6-cecc-44e1-abaf-f0fd42a2f472</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>LEDLightingDetector.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>LEDLightingDetector</Name>
+    <RootNamespace>LEDLightingDetector</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="LEDLightingDetector.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="data\train\" />
+    <Folder Include="data\train\BR\" />
+    <Folder Include="data\train\B\" />
+    <Folder Include="data\train\GB\" />
+    <Folder Include="data\train\G\" />
+    <Folder Include="data\train\None\" />
+    <Folder Include="data\train\RGB\" />
+    <Folder Include="data\train\RG\" />
+    <Folder Include="data\train\R\" />
+    <Folder Include="data\validation\" />
+    <Folder Include="data\validation\BR\" />
+    <Folder Include="data\validation\B\" />
+    <Folder Include="data\validation\GB\" />
+    <Folder Include="data\validation\G\" />
+    <Folder Include="data\validation\None\" />
+    <Folder Include="data\validation\RGB\" />
+    <Folder Include="data\validation\RG\" />
+    <Folder Include="data\validation\R\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\train\BR\B1-780_Light_T_0_0_0.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_0_0_1.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_0_0_2.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_0_0_3.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_0_0_4.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_0_30_0.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_0_30_1.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_0_30_2.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_0_30_3.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_0_30_4.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_30_0_0.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_30_0_1.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_30_0_2.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_30_0_3.png" />
+    <Content Include="data\train\BR\B1-780_Light_T_30_0_4.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_0_0.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_0_1.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_0_2.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_0_3.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_0_4.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_30_0.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_30_1.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_30_2.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_30_3.png" />
+    <Content Include="data\train\B\B1-780_Light_T_0_30_4.png" />
+    <Content Include="data\train\B\B1-780_Light_T_30_0_0.png" />
+    <Content Include="data\train\B\B1-780_Light_T_30_0_1.png" />
+    <Content Include="data\train\B\B1-780_Light_T_30_0_2.png" />
+    <Content Include="data\train\B\B1-780_Light_T_30_0_3.png" />
+    <Content Include="data\train\B\B1-780_Light_T_30_0_4.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_0_0.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_0_1.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_0_2.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_0_3.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_0_4.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_30_0.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_30_1.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_30_2.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_30_3.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_0_30_4.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_30_0_0.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_30_0_1.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_30_0_2.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_30_0_3.png" />
+    <Content Include="data\train\GB\B1-780_Light_T_30_0_4.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_0_0.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_0_1.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_0_2.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_0_3.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_0_4.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_30_0.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_30_1.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_30_2.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_30_3.png" />
+    <Content Include="data\train\G\B1-780_Light_T_0_30_4.png" />
+    <Content Include="data\train\G\B1-780_Light_T_30_0_0.png" />
+    <Content Include="data\train\G\B1-780_Light_T_30_0_1.png" />
+    <Content Include="data\train\G\B1-780_Light_T_30_0_2.png" />
+    <Content Include="data\train\G\B1-780_Light_T_30_0_3.png" />
+    <Content Include="data\train\G\B1-780_Light_T_30_0_4.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_0_0.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_0_1.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_0_2.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_0_3.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_0_4.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_30_0.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_30_1.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_30_2.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_30_3.png" />
+    <Content Include="data\train\None\B1-780_Light_T_0_30_4.png" />
+    <Content Include="data\train\None\B1-780_Light_T_30_0_0.png" />
+    <Content Include="data\train\None\B1-780_Light_T_30_0_1.png" />
+    <Content Include="data\train\None\B1-780_Light_T_30_0_2.png" />
+    <Content Include="data\train\None\B1-780_Light_T_30_0_3.png" />
+    <Content Include="data\train\None\B1-780_Light_T_30_0_4.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_0_0.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_0_1.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_0_2.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_0_3.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_0_4.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_30_0.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_30_1.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_30_2.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_30_3.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_0_30_4.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_30_0_0.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_30_0_1.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_30_0_2.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_30_0_3.png" />
+    <Content Include="data\train\RGB\B1-780_Light_T_30_0_4.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_0_0.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_0_1.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_0_2.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_0_3.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_0_4.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_30_0.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_30_1.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_30_2.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_30_3.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_0_30_4.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_30_0_0.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_30_0_1.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_30_0_2.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_30_0_3.png" />
+    <Content Include="data\train\RG\B1-780_Light_T_30_0_4.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_0_0.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_0_1.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_0_2.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_0_3.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_0_4.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_30_0.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_30_1.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_30_2.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_30_3.png" />
+    <Content Include="data\train\R\B1-780_Light_T_0_30_4.png" />
+    <Content Include="data\train\R\B1-780_Light_T_30_30_0.png" />
+    <Content Include="data\train\R\B1-780_Light_T_30_30_1.png" />
+    <Content Include="data\train\R\B1-780_Light_T_30_30_2.png" />
+    <Content Include="data\train\R\B1-780_Light_T_30_30_3.png" />
+    <Content Include="data\train\R\B1-780_Light_T_30_30_4.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_0_5.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_0_6.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_0_7.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_0_8.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_0_9.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_30_5.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_30_6.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_30_7.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_30_8.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_0_30_9.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_30_0_5.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_30_0_6.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_30_0_7.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_30_0_8.png" />
+    <Content Include="data\validation\BR\B1-780_Light_T_30_0_9.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_0_5.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_0_6.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_0_7.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_0_8.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_0_9.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_30_5.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_30_6.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_30_7.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_30_8.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_0_30_9.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_30_0_5.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_30_0_6.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_30_0_7.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_30_0_8.png" />
+    <Content Include="data\validation\B\B1-780_Light_T_30_0_9.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_0_5.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_0_6.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_0_7.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_0_8.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_0_9.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_30_5.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_30_6.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_30_7.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_30_8.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_0_30_9.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_30_0_5.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_30_0_6.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_30_0_7.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_30_0_8.png" />
+    <Content Include="data\validation\GB\B1-780_Light_T_30_0_9.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_0_5.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_0_6.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_0_7.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_0_8.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_0_9.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_30_5.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_30_6.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_30_7.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_30_8.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_0_30_9.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_30_0_5.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_30_0_6.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_30_0_7.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_30_0_8.png" />
+    <Content Include="data\validation\G\B1-780_Light_T_30_0_9.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_0_5.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_0_6.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_0_7.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_0_8.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_0_9.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_30_5.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_30_6.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_30_7.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_30_8.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_0_30_9.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_30_0_5.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_30_0_6.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_30_0_7.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_30_0_8.png" />
+    <Content Include="data\validation\None\B1-780_Light_T_30_0_9.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_0_5.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_0_6.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_0_7.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_0_8.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_0_9.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_30_5.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_30_6.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_30_7.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_30_8.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_0_30_9.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_30_0_5.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_30_0_6.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_30_0_7.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_30_0_8.png" />
+    <Content Include="data\validation\RGB\B1-780_Light_T_30_0_9.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_0_5.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_0_6.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_0_7.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_0_8.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_0_9.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_30_5.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_30_6.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_30_7.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_30_8.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_0_30_9.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_30_0_5.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_30_0_6.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_30_0_7.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_30_0_8.png" />
+    <Content Include="data\validation\RG\B1-780_Light_T_30_0_9.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_0_5.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_0_6.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_0_7.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_0_8.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_0_9.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_30_5.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_30_6.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_30_7.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_30_8.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_0_30_9.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_30_30_5.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_30_30_6.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_30_30_7.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_30_30_8.png" />
+    <Content Include="data\validation\R\B1-780_Light_T_30_30_9.png" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
